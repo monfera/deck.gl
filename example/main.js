@@ -549,14 +549,14 @@ class ExampleApp extends React.Component {
         {...mapViewState}
         layers={[
           // this._renderGridLayer(),
-          this._renderHexagonLayer(),
-          this._renderHexagonSelectionLayer(),
+          //this._renderHexagonLayer(),
+          //this._renderHexagonSelectionLayer(),
           this._renderArcLayer(),
           this._renderArcLayer2(),
           this._renderLineLayer(),
-          this._renderScatterplotLayer(),
-          this._renderChoroplethLayer(),
-          this._renderChoroplethContourLayer()
+          //this._renderScatterplotLayer(),
+          //this._renderChoroplethLayer(),
+          //this._renderChoroplethContourLayer()
         ]}
         onWebGLInitialized={ this._onWebGLInitialized }
       />
